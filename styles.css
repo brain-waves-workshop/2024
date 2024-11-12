@@ -77,3 +77,27 @@ nav ul li a:hover {
 .speaker h3 {
     font-size: 1.5rem;
     text-align: center; 
+
+/* Speaker Section */
+#speakers {
+    padding: 40px 20px;
+    background-color: #e2e2e2;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.speaker {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.speaker-photo {
+    width: 100px; /* Set desired width */
+    height: 100px; /* Set desired height */
+    object-fit: cover; /* Crop image to fit within set width/height */
+    border-radius: 50%; /* Optional: makes image circular */
+}
