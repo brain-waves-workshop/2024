@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home section */
+#home {
+    background: url('example_temporary.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+}
+
+/* Overview Section */
+#overview {
+    padding: 40px 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#overview h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Speakers Section */
+#speakers {
+    padding: 40px 20px;
+    background-color: #e2e2e2;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#speakers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.speaker {
+    margin-bottom: 20px;
+}
+
+.speaker h3 {
+    font-size: 1.5rem;
+}
+
+.speaker p {
+    font-size: 1rem;
+}
+
+/* Schedule Section */
+#schedule {
+    padding: 40px 20px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
