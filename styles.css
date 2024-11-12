@@ -4,6 +4,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    text-align: center; /* Center text in the whole body */
 }
 
 /* Navigation Bar */
@@ -15,6 +16,7 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
+    padding: 0; /* Remove default padding */
 }
 
 nav ul li {
@@ -32,36 +34,37 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Home section */
+/* Home Section */
 #home {
     background: url('example_temporary.jpg') no-repeat center center/cover;
     color: white;
     padding: 60px 20px;
-    text-align: center;
 }
 
 #home h1 {
     font-size: 2.5rem;
+    text-align: center; /* Center-align the h1 header */
+}
+
+#home p {
+    text-align: center; /* Center-align the paragraph in the Home section */
 }
 
 /* Overview Section */
 #overview {
     padding: 40px 20px;
-    text-align: left;
     max-width: 800px;
     margin: 0 auto;
 }
 
-#overview h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+#overview h2, #overview p {
+    text-align: center; /* Center-align text in the Overview section */
 }
 
 /* Speakers Section */
 #speakers {
     padding: 40px 20px;
     background-color: #e2e2e2;
-    text-align: left;
     max-width: 800px;
     margin: 0 auto;
 }
@@ -71,23 +74,6 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.speaker {
-    margin-bottom: 20px;
-}
-
 .speaker h3 {
     font-size: 1.5rem;
-}
-
-.speaker p {
-    font-size: 1rem;
-}
-
-/* Schedule Section */
-#schedule {
-    padding: 40px 20px;
-    text-align: left;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: #fff;
-}
+    text-align: center; 
