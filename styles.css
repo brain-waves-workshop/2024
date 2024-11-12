@@ -1,3 +1,103 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center; /* Center text in the whole body */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Home Section */
+#home {
+    background: url('EEGback.webp') no-repeat center center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    text-align: center; /* Center-align the h1 header */
+}
+
+#home p {
+    text-align: center; /* Center-align the paragraph in the Home section */
+}
+
+/* Overview Section */
+#overview {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#overview h2, #overview p {
+    text-align: center; /* Center-align text in the Overview section */
+}
+
+/* Speakers Section */
+#speakers {
+    padding: 40px 20px;
+    background-color: #e2e2e2;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#speakers h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Speaker Names */
+.speaker h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Individual Speaker Container */
+.speaker {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Speaker Photos */
+.speaker-photo {
+    width: 100px; /* Set desired width */
+    height: 100px; /* Set desired height */
+    object-fit: cover; /* Crop image to fit within set width/height */
+    border-radius: 50%; /* Optional: makes image circular */
+}
+
 /* Registration Section */
 #registration {
     padding: 40px 20px;
