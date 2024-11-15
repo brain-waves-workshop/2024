@@ -160,3 +160,7 @@ a {
 a:hover {
     color: #ff6347; /* Optional: Change color on hover */
 }
+
+html {
+    scroll-behavior: smooth;
+}
