@@ -80,11 +80,12 @@ nav ul li a:hover {
 
 .speaker {
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
+    align-items: left;
     justify-content: start;
     gap: 15px;
     margin-bottom: 20px;
-   border-style: ridge;
+    border-style: ridge;
 }
 
 .speaker-photo {
