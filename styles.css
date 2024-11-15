@@ -9,32 +9,44 @@ body {
     padding: 0;
 }
 
-/* Navigation Bar */
+/* Sticky Navigation Bar */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #333; /* Dark background */
+    padding: 10px 0;
+    position: fixed; /* Makes it sticky */
+    top: 0; /* Align to the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
     margin: 0;
-    display: inline-block;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center items in the nav bar */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 15px; /* Space between navigation items */
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ffd700; /* Change color on hover (gold as an example) */
+}
+
+/* Add padding to body to prevent content overlap with the sticky nav */
+body {
+    padding-top: 50px; /* Adjust based on the height of your nav */
 }
 
 /* Home Section */
