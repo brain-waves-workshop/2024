@@ -97,6 +97,15 @@ nav ul li a:hover {
     flex-grow: 1;
 }
 
+.speaker-info h3 {
+    margin: 5px 0;
+}
+
+.speaker-info p {
+    margin: 5px 0;
+}
+
+
 /* Registration Form */
 form {
     background-color: #fff;
