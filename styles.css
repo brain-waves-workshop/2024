@@ -6,6 +6,9 @@ body {
     color: #333;
     text-align: center; /* Center text in the whole body */
 }
+p {
+  font-size: 14px;
+}
 
 /* Navigation Bar */
 nav {
