@@ -68,9 +68,10 @@ nav ul li a:hover {
 #speakers {
     padding: 40px 20px;
     background-color: #e2e2e2;
-    text-align: center;
+    text-align: left;    
     max-width: 800px;
     margin: 0 auto;
+    border-style: ridge;
 }
 
 #speakers h2 {
@@ -80,12 +81,10 @@ nav ul li a:hover {
 
 .speaker {
     display: flex;
-    /*align-items: center;*/
-    align-items: left;
+    align-items: center;
     justify-content: start;
     gap: 15px;
     margin-bottom: 20px;
-    border-style: ridge;
 }
 
 .speaker-photo {
