@@ -45,12 +45,13 @@ nav ul li a:hover {
 }
 
 #home h1 {
-    color: #000000; /* Light blue color */
+    color: black; 
     font-size: 2.5rem;
     text-align: center; /* Center-align the h1 header */
 }
 
 #home p {
+    color: black; 
     text-align: center; /* Center-align the paragraph in the Home section */
 }
 
@@ -62,7 +63,7 @@ nav ul li a:hover {
 }
 
 #overview h2, #overview p {
-    color: #000000; /* Light blue color */
+    color: black; 
     text-align: center; /* Center-align text in the Overview section */
 }
 
