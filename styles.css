@@ -83,10 +83,23 @@ nav ul li a:hover {
 
 .speaker {
     display: flex;
-    align-items: center;
-    justify-content: start;
+    align-items: flex-start;
     gap: 15px;
     margin-bottom: 20px;
+}
+
+.speaker-header {
+    text-align: left; /* Align text to the left for consistency */
+}
+
+.speaker-header h3 {
+    font-size: 1.5rem;
+    margin: 0; /* Remove extra spacing */
+}
+
+.speaker-header p {
+    font-style: italic;
+    margin: 0 0 10px; /* Add some spacing below the affiliation */
 }
 
 .speaker-photo {
