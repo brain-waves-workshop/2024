@@ -63,6 +63,12 @@ body {
     margin-bottom: 10px;
 }
 
+.welcome-text {
+    font-size: 1.8rem; /* Increased font size */
+    color: white; /* Ensure the text is visible against the background */
+    margin-top: 20px; /* Add spacing if needed */
+}
+
 #home p {
     color: black;
 }
