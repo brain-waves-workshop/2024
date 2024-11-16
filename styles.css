@@ -163,7 +163,8 @@ label {
 
 .form-group-horizontal {
     display: flex;
-    gap: 15px;
+    gap: 12px;
+    margin-bottom: 10px;
 }
 
 .form-group-horizontal .form-group {
@@ -177,7 +178,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 30px; /* Added margin above the button */
-    font-size: 16px;
+    font-size: 18px;
 }
 
 button:hover {
