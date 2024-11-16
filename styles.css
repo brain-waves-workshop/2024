@@ -183,7 +183,9 @@ button {
 button:hover {
     background-color: #555;
 }
-
+.submit-button{
+    font-size: 16px;
+}
 /* Link Styles */
 a {
     color: #333;
