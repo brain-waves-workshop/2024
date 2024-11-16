@@ -160,6 +160,15 @@ label {
     margin-bottom: 5px;
     color: #555;
 }
+/* Horizontal Form Group for Name */
+.form-group-horizontal {
+    display: flex;
+    gap: 15px;
+}
+
+.form-group-horizontal .form-group {
+    flex: 1;
+}
 button {
     background-color: #333;
     color: white;
