@@ -183,12 +183,22 @@ html {
     scroll-behavior: smooth;
 }
 /*Logos at the bottom*/
+
 logo{
     display:table-cell; /*the magic*/
     position: absolute; 
     bottom: 0; 
-    left: 0; 
-    width: 100px; 
-    height: 100px; 
     /*vertical-align:bottom; /*vertical alignment to the bottom*/
+}
+.unil{
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+.unipd{
+    bottom: 0; 
+    right: 0; 
+    width: 10%; 
+    height: 10%;   
 }
