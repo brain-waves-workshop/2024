@@ -182,4 +182,10 @@ a:hover {
 html {
     scroll-behavior: smooth;
 }
-
+/*Logos at the bottom*/
+logo{
+    display:table-cell; /*the magic*/
+    width:200px;
+    height:300px;
+    vertical-align:bottom; /*vertical alignment to the bottom*/
+}
