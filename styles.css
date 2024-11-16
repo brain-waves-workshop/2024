@@ -184,12 +184,7 @@ html {
 }
 /*Logos at the bottom*/
 
-logo{
-    display:table-cell; /*the magic*/
-    position: absolute; 
-    bottom: 0; 
-    /*vertical-align:bottom; /*vertical alignment to the bottom*/
-}
+
 .unil{
     bottom: 0; 
     left: 0; 
