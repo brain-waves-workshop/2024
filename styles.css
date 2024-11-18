@@ -173,7 +173,7 @@ label {
 button {
     display: inline-block; /* Ensures the full button is clickable */
     background-color: #588cd1;
-    color: white;
+    text-color: white;
     padding: 25px 50px;
     border: none;
     border-radius: 30px;
