@@ -183,13 +183,16 @@ button {
     font-size: 40px;
 }
 
-button:hover {
+/*button:hover {
     background-color: #e6e6e6;
-}
+} */
 .register-button {
     display: inline-block; 
 }
-
+.register-button:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+    color: #e0e0e0; /* Lighter text color on hover */
+}
 /* Link Styles */
 a {
     color: #333;
