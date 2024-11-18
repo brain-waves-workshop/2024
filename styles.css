@@ -179,7 +179,7 @@ label {
     cursor: pointer;
     margin-top: 30px; /* Added margin above the button */
     margin-bottom: 30px;
-    font-size: 36px;
+    font-size: 40px;
 }
 
 .button:hover {
