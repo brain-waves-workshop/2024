@@ -186,7 +186,9 @@ button {
 button:hover {
     background-color: #e6e6e6;
 }
-
+.register-button {
+    display: inline-block; 
+}
 
 /* Link Styles */
 a {
