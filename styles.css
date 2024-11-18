@@ -204,6 +204,21 @@ html {
 h2{
     color: #002c54;
 }
+ /* Register button*/
+ .register-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #4285F4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
 /*Logos at the bottom*/
 
 
