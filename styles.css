@@ -171,7 +171,7 @@ label {
     flex: 1;
 }
 button {
-    background-color: #333;
+    background-color: #c9c7c7;
     color: white;
     padding: 30px 60px;
     border: none;
@@ -191,7 +191,7 @@ button:hover {
             padding: 30px 60px; /* Larger padding for a bigger button */
             font-size: 24px; /* Larger font size */
             font-weight: bold;
-            color: #fff;
+            color: white;
             background-color: #4285F4;
             border: none;
             border-radius: 12px; /* Slightly rounded corners for larger size */
