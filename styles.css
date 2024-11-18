@@ -171,12 +171,12 @@ label {
     flex: 1;
 }
 button {
-    background-color: #588cd1;
+    background-color: #d0dff5;
     text-color: white;
     padding: 25px 50px;
     border: none;
     border-radius: 30px;
-    cursor: default;
+    cursor: pointer;
     margin-top: 30px; /* Added margin above the button */
     margin-bottom: 30px;
     font-size: 40px;
@@ -187,7 +187,6 @@ button {
 } */
 
 .register-button:hover {
-    display: inline-block; /* Ensures the full button is clickable */
     background-color: #abbacf; 
     color: #e0e0e0; /* Lighter text color on hover */
 }
