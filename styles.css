@@ -186,7 +186,7 @@ button:hover {
     background-color: #555;
 }
 
-       .register-button {
+       .submit-button {
             display: inline-block;
             padding: 30px 60px; /* Larger padding for a bigger button */
             font-size: 24px; /* Larger font size */
@@ -201,7 +201,7 @@ button:hover {
             margin-bottom: 50px; /* Space below the button */
         }
 
-        .register-button:hover {
+        .submit-button:hover {
             background-color: #357ae8;
         }
 /* Link Styles */
