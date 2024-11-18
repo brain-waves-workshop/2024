@@ -188,7 +188,7 @@ button {
 } */
 
 .register-button:hover {
-    background-color: #abbacf; /* Darker blue on hover */
+    background-color: #abbacf; 
     color: #e0e0e0; /* Lighter text color on hover */
 }
 /* Link Styles */
