@@ -176,7 +176,7 @@ button {
     padding: 25px 50px;
     border: none;
     border-radius: 30px;
-    cursor: pointer;
+    cursor: default;
     margin-top: 30px; /* Added margin above the button */
     margin-bottom: 30px;
     font-size: 40px;
