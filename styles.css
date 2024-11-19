@@ -212,7 +212,12 @@ h2{
 
 
 /*Logos at the bottom*/
-
+.pnd{
+    bottom: 0; 
+    left: 0; 
+    width: 17%; 
+    height: 17%; 
+}
 
 .unil{
     bottom: 0; 
