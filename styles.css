@@ -147,6 +147,19 @@ body {
     margin: 10px 0;
 }
 
+/* Talk slides */
+.slides{
+    font-family: Times New Roman, serif;
+    font-style: normal;
+    font-size: 12pt;
+    color: #2b406e;
+    text-align: center; /* Center-align all text globally */
+    margin: 0;
+}
+.slides:hover {
+    color: #ff6347; /* Optional: Change color on hover */
+}
+
 /* Registration Section */
 form {
     max-width: 500px;
@@ -184,14 +197,7 @@ button {
     font-size: 40px;
 }
 
-/*button:hover {
-    background-color: #e6e6e6;
-} */
 
-/*.register-button:hover {
-    background-color: #abbacf; 
-    color: #e0e0e0; 
-} */
 /* Link Styles */
 a {
     color: #333;
